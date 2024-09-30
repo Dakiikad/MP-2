@@ -6,13 +6,14 @@ const AllCharsDiv=styled.div`
     flex-flow: row wrap;    
     justify-content: space-evenly;
     background-color: black;
+    width: 100%;
 `;
 
 const SingleCharDiv=styled.div<{name: string}>`
     display: flex;
     flex-direction: column;   
     justify-content: center;
-    max-width: 30%;
+    max-width: 100%;
     padding: 2%;
     margin: 1%;
     background-color: white;

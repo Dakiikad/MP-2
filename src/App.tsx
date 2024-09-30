@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 import {Currency} from "./interfaces/Currencies.ts";
 
 const ParentDiv=styled.div`
-    width: 80vw;
+    width: 100%;
     margin: auto;
     border: 5px black solid;
 `;
